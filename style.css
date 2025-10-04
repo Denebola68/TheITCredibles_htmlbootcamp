@@ -28,6 +28,7 @@ body {
 
 
 .foto-kontakt {
+width: 350px;
 border-radius: 50px 0 50px 50px;
 float: left;
 margin: 0 30px 30px 0;
