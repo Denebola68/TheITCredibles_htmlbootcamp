@@ -1,5 +1,9 @@
 body {
     background-color: #fff1e6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color:#282425
 }
 
 .menu,.paticka {
@@ -10,6 +14,20 @@ body {
 
 .fotogalerie, .kontakt {
     background-color: #f9e3d0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic
+}
+
+a {
+    font-style:italic
+}
+
+h1, h2, h3,
+a {
+    color: #756158
 }
 
 /*
