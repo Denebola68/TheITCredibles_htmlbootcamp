@@ -84,7 +84,10 @@ td {
         border-bottom: 1px solid black;
         padding: 10px 10px;
     }
-    
+  
+table td:nth-child(2)  {
+    text-align: right;
+}
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
