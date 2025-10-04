@@ -13,6 +13,15 @@ body {
     text-align: center;
 }
 
+.foto_adely{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    margin: 0 15px 15px 0;
+
+}
 .fotogalerie, .kontakt {
     background-color: #f9e3d0;
 }
@@ -72,6 +81,12 @@ section {
     float: right;
     margin: 0 0 30px 30px;
     width: 350px;
+}
+
+.fotogalerie img {
+    width: 32%;
+    border: 0px solid #756158;
+    border-radius: 3px;
 }
 
 .cenik {
