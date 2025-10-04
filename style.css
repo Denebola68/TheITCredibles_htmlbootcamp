@@ -16,7 +16,9 @@ body {
     background-color: #f9e3d0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Playfair Display', serif;
     font-style: italic
 }
@@ -25,10 +27,30 @@ a {
     font-style:italic
 }
 
-h1, h2, h3,
+h1,
+h2,
+h3,
 a {
     color: #756158
 }
+
+h1 {
+    font-size: 80px;
+    text-align:center;
+    color:white;
+}
+
+h2 {
+    font-size:48px;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 24px;
+}
+
+
 
 /*
 font-family: 'Raleway', sans-serif;
