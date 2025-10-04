@@ -88,6 +88,9 @@ td {
 table td:nth-child(2)  {
     text-align: right;
 }
+.cena {
+    text-align:right;
+}
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
