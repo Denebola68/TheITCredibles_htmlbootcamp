@@ -89,23 +89,36 @@ margin:0;
 padding:0;
 }
 
+.foto-pruvodce {
+    border-radius: 0 50px 0 50px;
+    float: right;
+    margin: 0 0 30px 30px;
+    width: 350px;
+}
+
 .fotogalerie img {
     width: 32%;
     border: 0px solid #756158;
     border-radius: 3px;
 }
 
+.cenik {
+    border-spacing: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
+th,
+td {
+        text-align: left;
+        border-bottom: 1px solid black;
+        padding: 10px 10px;
+    }
+  
+table td:nth-child(2)  {
+    text-align: right;
+}
+.cena {
+    text-align:right;
+}
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
