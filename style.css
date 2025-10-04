@@ -1,4 +1,13 @@
 body {
+    background-color: #fff1e6;
+}
+
+.menu,.paticka {
+    background-color: #fff1e6;
+}
+
+.fotogalerie, .kontakt {
+    background-color: #f9e3d0;
 }
 
 /*
