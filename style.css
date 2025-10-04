@@ -4,6 +4,8 @@ body {
 
 .menu,.paticka {
     background-color: #282425;
+    color:white;
+    text-align: center;
 }
 
 .fotogalerie, .kontakt {
