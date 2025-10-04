@@ -26,54 +26,66 @@ body {
     background-color: #f9e3d0;
 }
 
-h1,
-h2,
-h3 {
+
+.foto-kontakt {
+border-radius: 50px 0 50px 50px;
+float: left;
+margin: 0 30px 30px 0;
+/*padding: 0 30px 0 0;*/
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+h1,h2,h3 {
     font-family: 'Playfair Display', serif;
     font-style: italic
 }
 
+
+
 a {
-    font-style:italic
+font-style:italic
 }
 
-h1,
-h2,
-h3,
+
+h1,h2,h3,
 a {
-    color: #756158
+color: #756158
 }
 
 h1 {
-    font-size: 80px;
-    text-align:center;
-    color:white;
-    margin:0;
+font-size: 80px;
+text-align:center;
+color:white;
+margin:0;
 }
 
+
 h2 {
-    font-size:48px;
-    text-align: center;
-    margin-top:0;
+font-size:48px;
+text-align: center;
+margin-top:0;
 }
 
 
 h3 {
-    font-size: 24px;
-    margin-top:36px;
+font-size: 24px;
+margin-top:36px;
 }
 
 .paticka {
-    padding:20px 0
+padding:20px 0
 }
 
+
 section {
-    padding: 50px 15%
+padding: 50px 15%;
+overflow: auto;
 }
 
 .menu {
-    margin:0;
-    padding: 0;
+margin:0;
+padding:0;
 }
 
 .fotogalerie img {
@@ -81,6 +93,16 @@ section {
     border: 0px solid #756158;
     border-radius: 3px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /*
