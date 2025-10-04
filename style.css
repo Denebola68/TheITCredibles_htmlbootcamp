@@ -101,6 +101,36 @@ padding:0;
     border: 0px solid #756158;
     border-radius: 3px;
 }
+  
+.hlavicka {
+    padding: 150px 30px;
+    background-image: url(obrazky/hlavicka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0;
+    color:white;
+}
+
+
+    div {
+        margin: 0;
+        line-height: auto;
+        text-align: center;
+        font-size: 80px;
+        color:white;
+        font-family:"Raleway",sans-serif;
+    }
+  
+.menu li {
+    display: inline-block;
+}
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
 
 .cenik {
     border-spacing: 0;
