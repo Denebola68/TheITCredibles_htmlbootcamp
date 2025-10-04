@@ -13,58 +13,93 @@ body {
     text-align: center;
 }
 
+.foto_adely{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    margin: 0 15px 15px 0;
+
+}
 .fotogalerie, .kontakt {
     background-color: #f9e3d0;
 }
 
-h1,
-h2,
-h3 {
+
+.foto-kontakt {
+width: 350px;
+border-radius: 50px 0 50px 50px;
+float: left;
+margin: 0 30px 30px 0;
+/*padding: 0 30px 0 0;*/
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+h1,h2,h3 {
     font-family: 'Playfair Display', serif;
     font-style: italic
 }
 
+
+
 a {
-    font-style:italic
+font-style:italic
 }
 
-h1,
-h2,
-h3,
+
+h1,h2,h3,
 a {
-    color: #756158
+color: #756158
 }
 
 h1 {
-    font-size: 80px;
-    text-align:center;
-    color:white;
-    margin:0;
+font-size: 80px;
+text-align:center;
+color:white;
+margin:0;
 }
 
+
 h2 {
-    font-size:48px;
-    text-align: center;
-    margin-top:0;
+font-size:48px;
+text-align: center;
+margin-top:0;
 }
 
 
 h3 {
-    font-size: 24px;
-    margin-top:36px;
+font-size: 24px;
+margin-top:36px;
 }
 
 .paticka {
-    padding:20px 0
+padding:20px 0
 }
 
+
 section {
-    padding: 50px 15%
+padding: 50px 15%;
+overflow: auto;
 }
 
 .menu {
-    margin:0;
-    padding: 0;
+margin:0;
+padding:0;
+}
+
+.foto-pruvodce {
+    border-radius: 0 50px 0 50px;
+    float: right;
+    margin: 0 0 30px 30px;
+    width: 350px;
+}
+
+.fotogalerie img {
+    width: 32%;
+    border: 0px solid #756158;
+    border-radius: 3px;
 }
   
 .hlavicka {
@@ -97,7 +132,23 @@ section {
     padding: 20px 30px;
 }
 
+.cenik {
+    border-spacing: 0;
+}
 
+th,
+td {
+        text-align: left;
+        border-bottom: 1px solid black;
+        padding: 10px 10px;
+    }
+  
+table td:nth-child(2)  {
+    text-align: right;
+}
+.cena {
+    text-align:right;
+}
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
